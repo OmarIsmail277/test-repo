@@ -4,8 +4,9 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import NavBar from './Components/NavBar'
 
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -30,8 +31,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <p className="read-the-docs">test from omar-2 </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
